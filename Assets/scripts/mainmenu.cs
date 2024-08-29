@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class mainmenu : MonoBehaviour
 {
-    static string 
+    
     // Start is called before the first frame update
     void Start()
     {
