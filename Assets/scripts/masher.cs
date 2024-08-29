@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class masher : MonoBehaviour
 {
-    
+    bool MasherA;
     
     void Start()
     {
