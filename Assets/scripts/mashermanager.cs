@@ -5,6 +5,7 @@ using UnityEngine;
 public class mashermanager : MonoBehaviour
 {
     int score;
+    int player;
     void Start()
     {
         
