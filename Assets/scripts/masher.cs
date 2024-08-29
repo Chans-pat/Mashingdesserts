@@ -16,7 +16,7 @@ public class masher : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-
+            
         }
     }
 }
