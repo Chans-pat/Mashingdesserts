@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class mashermanager : MonoBehaviour
 {
-    
+    int score;
     void Start()
     {
         
