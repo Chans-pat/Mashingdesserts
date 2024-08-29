@@ -4,19 +4,16 @@ using UnityEngine;
 
 public class masher : MonoBehaviour
 {
-    Animator ani;
-    // Start is called before the first frame update
+    
+    
     void Start()
     {
-        ani = GetComponent<Animator>();
+
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            
-        }
+
     }
 }
