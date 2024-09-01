@@ -1,19 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class mashermanager : MonoBehaviour
 {
-    int score;
-    int player;
-    void Start()
-    {
-        
-    }
+    public TextMeshProUGUI clickstotaltext;
 
-    
-    void Update()
+    public float totalclick;
+
+   public void addclick()
     {
-        
+        totalclick++;
+        clickstotaltext.text = totalclick.ToString("0");
     }
 }

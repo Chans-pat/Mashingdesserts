@@ -5,15 +5,16 @@ using UnityEngine;
 
 public class exit : MonoBehaviour
 {
-    
-    void Start()
-    {
-        
-    }
+    public static string webplayerQuitURL = "Http://google.com";
 
-    
-    void Update()
+    public void Quit()
     {
-        
+#if  UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+#if UNITY_WEBPLAYER
+        Application.OpenURL(webplayerQuitURL);
+#endif
+        Application.Quit();
     }
 }
